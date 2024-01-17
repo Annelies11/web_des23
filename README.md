@@ -1,15 +1,15 @@
-# Responsive Portfolio Website Rian
-## [Watch it on youtube](https://youtu.be/-uQIBlaZ4P0)
-### Responsive Portfolio Website Rian
+# Website Pribadi Aris Mahmudi
 
-- Responsive Personal Portfolio Website Using HTML CSS & JavaScript
-- Contains animations when scrolling.
-- Smooth scrolling in each section.
-- Includes a dark & light theme.
-- Sending emails in the contact section.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+## Yang sudah ada sekarang
+- About Me : Kata-kata pemanis yang dilihat orang agar first impression-nya bagus
+- Project : Project yang telah kubuat dari hardware, software, desain. Semuanya lah asal "Menyelesaikan masalah"
+- Contact Me : Form untuk mengirim email dan link sosmed bagi orang yang ingin menghubungiku
 
-💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/@Bedimcode)
+## Pengembangan
+- Menambahkan tab "Blog".
+- Menambahkan link "Education" dan "Achievment" pada " About Me".
+- Mendesain tampilan web seperti desain yang ada pada di link https://www.figma.com/file/VkiN3Y1Gs50s97cz0d6WWU/Desain-Portfolio-2?type=design&node-id=3-3&mode=design&t=dmSwiirnwtTiNe2p-0
 
+Preview-nya seperti di bawah ini : 
 ![preview img](/preview.png)
+harapannya sih begitu
