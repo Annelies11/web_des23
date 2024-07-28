@@ -110,6 +110,7 @@ body.dark-theme{
   --black-color: hsl(0, 0%, 18%);
   --black-color-light: hsl(0, 0%, 30%);
   --title-color: hsl(0, 0%, 95%);
+  --link-color:hsl(194, 82%, 49%);
   --text-color: hsl(0, 0%, 70%);
   --body-color: hsl(0, 0%, 8%);
   --container-color: hsl(0, 0%, 12%);
@@ -636,8 +637,11 @@ body.dark-theme{
   color: var(--title-color);
   margin-bottom: 1.5rem;
 }
+.about__description a span{
+  color: var(--link-color);
+}
 
-.about__description::after{
+.about__description a span::after{
   content: '';
   width: 20px;
   height: 1px;
@@ -645,6 +649,11 @@ body.dark-theme{
   position: absolute;
   left: -1.75rem;
   top: .5rem;
+}
+
+
+.about__description::after{
+  color: var(--link-color);
 }
 
 .about__list{
