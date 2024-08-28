@@ -1,563 +1,792 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
 
-      <!--=============== REMIXICONS ===============-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css"
+      crossorigin=""
+    />
 
-      <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-      <title>Aris Mahmudi</title>
-   </head>
-   <body>
-      <!--==================== HEADER ====================-->
-      <header class="header" id="header">
-         <nav class="nav container">
-            <a href="#" class="nav__logo">
-               <span class="nav__logo-circle">A</span>
-               <span class="nav__logo-name">Ris M.</span>
+    <title>Aris Mahmudi</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <span class="nav__logo-circle">A</span>
+          <span class="nav__logo-name">Ris M.</span>
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <span class="nav__title">Menu</span>
+
+          <h3 class="nav__name">Welcome</h3>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About Me</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Project</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link nav__link-button"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+          <!---close btn-->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-fill"></i>
+          </div>
+        </div>
+
+        <div class="nav__buttons">
+          <!---Theme button-->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+          <!---Toggle Button-->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-fill"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <h1 class="home__name">Welcome to my Lab</h1>
+          <div class="home__perfil">
+            <div class="home__image">
+              <img src="assets/img/aris-1.jpg" alt="image" class="home__img" />
+              <div class="home__shadow"></div>
+              <img
+                src="assets/img/curved-arrow.svg"
+                alt=""
+                class="home__arrow"
+              />
+              <img
+                src="assets/img/random-lines.svg"
+                alt=""
+                class="home__line"
+              />
+              <div class="geometric-box"></div>
+            </div>
+            <div class="home__social">
+              <a
+                href="https://www.instagram.com/aris_mahmvdi/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/aris-mahmudi112233/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-linkedin-box-fill"></i>
+              </a>
+              <a
+                href="https://github.com/Annelies11"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-github-fill"></i>
+              </a>
+              <a
+                href="https://www.hackerrank.com/profile/mmahmudi1103"
+                target="_blank"
+                class="home__social-link"
+              >
+                <!-- <i class="ri-github-fill"></i> -->
+                <img
+                  style="
+                    background-color: rgba(255, 255, 255, 1);
+                    border-radius: 10px;
+                    width: 25px;
+                  "
+                  src="assets/img/fi-snsuxs-hackerrank.png"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+          <div class="home__info">
+            <p class="home__description">
+              <b>Aris Mahmudi</b>, is someone with many interests in technology.
+              Most of the times he took is for doing things such as Web
+              Development, IoT, and Robotics. He also enjoys doing Competitive
+              Programming.
+            </p>
+            <a href="#about" class="home__scroll">
+              <div class="home__scroll-box">
+                <i class="ri-arrow-down-s-line"></i>
+              </div>
+              <span class="home__scroll-text">Scroll Down</span>
             </a>
+          </div>
+        </div>
+      </section>
 
-            <div class="nav__menu" id="nav-menu">
-               <span class="nav__title">Menu</span>
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <h2 class="section__title-1">
+            <span>About Me</span>
+          </h2>
+          <div class="about__perfil">
+            <div class="about__image">
+              <img
+                src="assets/img/aris.jpg"
+                alt="Ini diriku"
+                class="about__img"
+              />
+              <div class="about__shadow"></div>
+              <div class="geometric-box"></div>
+              <img
+                src="assets/img/random-lines.svg"
+                alt=""
+                class="about__line"
+              />
+              <div class="about__box"></div>
+            </div>
+          </div>
 
-               <h3 class="nav__name">Welcome</h3>
-               <ul class="nav__list">
-                  
-                  <li class="nav__item">
-                     <a href="#home" class="nav__link active-link">Home</a>
-                  </li>
+          <div class="about__info">
+            <p class="about__description">
+              Passionate about creating <b>Web Pages</b> and anything related
+              with <b>Microcontrol</b>, I have years of experiences of
+              <a
+                href="https://radarkediri.jawapos.com/pendidikan/784674155/keren-siswa-mtsn-5-kediri-memenangi-lomba-robotik-se-jawa-timur#:~:text=pria%20itu%20adalah-,Aris%20Mahmudi.,-Pria%2025%20tahun"
+                ><span>teaching and mentoring</span></a
+              >
+              about microcontrol and IoT device.
+            </p>
 
-                  <li class="nav__item">
-                     <a href="#about" class="nav__link">About Me</a>
-                  </li>
+            <ul class="about__list">
+              <li class="about__item">
+                <b>I am used to working with : </b> HTML, CSS, Javascript,
+                Golang, Node JS, React JS, Arduino IDE & Figma.
+              </li>
+            </ul>
 
-                  <li class="nav__item">
-                     <a href="#projects" class="nav__link">Project</a>
-                  </li>
+            <div class="about__buttons">
+              <a
+                href="https://drive.google.com/file/d/1gjmUUww_KhILkXB3yhDwyjEAnlaP9ydM/view?usp=drive_link"
+                class="button"
+              >
+                <i class="ri-article-line"></i> My Resume
+              </a>
 
-                  <li class="nav__item">
-                     <a href="#contact" class="nav__link nav__link-button">Contact Me</a>
-                  </li>
-               </ul>
-               <!---close btn-->
-               <div class="nav__close" id="nav-close">
-                  <i class="ri-close-fill"></i>
-               </div>
+              <a
+                href="https://www.linkedin.com/in/aris-mahmudi112233/"
+                target="_blank"
+                class="button__ghost"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section">
+        <h2 class="section__title-2">
+          <span>Services</span>
+        </h2>
+        <div class="services__container container grid">
+          <article class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-computer-line"></i>
+              </div>
+              <h2 class="services__title">Front End</h2>
+
+              <p class="services__description">
+                It's my first year journey of developing website projects using
+                React JS.
+              </p>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-code-box-line"></i>
+              </div>
+              <h2 class="services__title">Back End</h2>
+
+              <p class="services__description">
+                I often use Golang, Node JS, and PHP to create the logic of a
+                system.
+              </p>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-cpu-line"></i>
+              </div>
+              <h2 class="services__title">IoT and Microcontrol</h2>
+
+              <p class="services__description">
+                Design and assemble a useful and implementable IoT project
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+        <h2 class="section__title-1">
+          <span>Projects</span>
+        </h2>
+
+        <div class="projects__container container grid">
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/project-1.jpg"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a href="#" class="projects__button button">
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
             </div>
 
-            <div class="nav__buttons">
-               <!---Theme button-->
-               <i class="ri-moon-line change-theme" id="theme-button"></i>
-                <!---Toggle Button-->
-                <div class="nav__toggle" id="nav-toggle">
-                   <i class="ri-menu-fill"></i>
-                </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">IoT</h3>
+              <h2 class="projects__title">Smart Smoke Precipitator</h2>
+
+              <p class="projects__description">
+                A device that will overcome the problem of pollution due to
+                charcoal production. Made with my team. I did the electrical.
+              </p>
             </div>
-         </nav>
-      </header>
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/fajrulfahmi/baronas2023/tree/main/Smart_Smoke_Catcher"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
 
-      <!--==================== MAIN ====================-->
-      <main class="main">
-         <!--==================== HOME ====================-->
-         <section class="home section" id="home">
-            <div class="home__container container grid">
-               <h1 class="home__name">
-                  Welcome to my Lab
-               </h1>
-               <div class="home__perfil">
-                  <div class="home__image">
-                     <img src="assets/img/aris-1.jpg" alt="image" class="home__img">
-                     <div class="home__shadow"></div>
-                     <img src="assets/img/curved-arrow.svg" alt="" class="home__arrow">
-                     <img src="assets/img/random-lines.svg" alt="" class="home__line">
-                     <div class="geometric-box"></div>
-                  </div>
-                  <div class="home__social">
-                     <a href="https://www.instagram.com/aris_mahmvdi/" target="_blank" class="home__social-link">
-                        <i class="ri-instagram-line"></i>
-                     </a>
-                     <a href="https://www.linkedin.com/in/aris-mahmudi112233/" target="_blank" class="home__social-link">
-                        <i class="ri-linkedin-box-fill"></i>
-                     </a>
-                     <a href="https://github.com/Annelies11" target="_blank" class="home__social-link">
-                        <i class="ri-github-fill"></i>
-                     </a>
-                     <a href="https://www.hackerrank.com/profile/mmahmudi1103" target="_blank" class="home__social-link">
-                        <!-- <i class="ri-github-fill"></i> -->
-                         <img style="background-color: rgba(255, 255, 255, 1);border-radius: 10px;width: 25px;" src="assets/img/fi-snsuxs-hackerrank.png" alt="">
-                     </a>
-                  </div>
-               </div>
-               <div class="home__info">
-                  <p class="home__description">
-                     <b>Aris Mahmudi</b>, is someone with many interests in technology. Most of the times he took is for doing things such as Web Development, IoT, and Robotics. He also enjoys doing Competitive Programming.
-                  </p>
-                  <a href="#about" class="home__scroll">
-                     <div class="home__scroll-box">
-                        <i class="ri-arrow-down-s-line"></i>
-                     </div>
-                     <span class="home__scroll-text">Scroll Down</span>
-                  </a>
-               </div>
-            </div>            
-         </section>
-
-         <!--==================== ABOUT ====================-->
-         <section class="about section" id="about">
-            <div class="about__container container grid">
-               <h2 class="section__title-1">
-                  <span>About Me</span>
-               </h2>
-               <div class="about__perfil">
-                  <div class="about__image">
-                     <img src="assets/img/aris.jpg" alt="Ini diriku" class="about__img">
-                     <div class="about__shadow"></div>
-                     <div class="geometric-box"></div>
-                     <img src="assets/img/random-lines.svg" alt="" class="about__line">
-                     <div class="about__box"></div>
-                  </div>
-               </div>
-
-               <div class="about__info">
-                  <p class="about__description">
-                     Passionate about creating <b>Web Pages</b> and anything related with <b>Microcontrol</b>, I have years of experiences of <a href="https://radarkediri.jawapos.com/pendidikan/784674155/keren-siswa-mtsn-5-kediri-memenangi-lomba-robotik-se-jawa-timur#:~:text=pria%20itu%20adalah-,Aris%20Mahmudi.,-Pria%2025%20tahun"><span>teaching and mentoring</span></a> about microcontrol and IoT device. 
-                  </p>
-
-                  <ul class="about__list">
-                     <li class="about__item">
-                        <b>I am used to working with : </b> HTML, CSS, Javascript, Golang, Node JS, React JS, Arduino IDE & Figma.
-                     </li>
-                  </ul>
-
-                  <div class="about__buttons">
-                     <a href="https://drive.google.com/file/d/1gjmUUww_KhILkXB3yhDwyjEAnlaP9ydM/view?usp=drive_link" class="button">
-                        <i class="ri-article-line"></i> My Resume
-                     </a>
-
-                     <a href="https://www.linkedin.com/in/aris-mahmudi112233/" target="_blank" class="button__ghost">
-                        <i class="ri-linkedin-box-line"></i>
-                     </a>
-
-                     
-                  </div>
-               </div>
+              <a
+                href="https://youtu.be/VvEdRiHsCE8"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-youtube-line"></i> Watch
+              </a>
             </div>
-         </section>
+          </article>
 
-         <!--==================== SERVICES ====================-->
-         <section class="services section">
-            <h2 class="section__title-2">
-               <span>Services</span>
-            </h2>
-            <div class="services__container container grid">
-               <article class="services__card">
-                  <div class="services__border"></div>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/project-2.jpg"
+                alt="image"
+                class="projects__img"
+              />
 
-                  <div class="services__content">
-                     <div class="services__icon">
-                        <div class="services__box"></div>
-                        <i class="ri-computer-line"></i>
-                     </div>
-                     <h2 class="services__title">Front End</h2>
-
-                     <p class="services__description">
-                        It's my first year journey of developing website projects using React JS.
-                     </p>
-                  </div>
-               </article>
-
-               <article class="services__card">
-                  <div class="services__border"></div>
-
-                  <div class="services__content">
-                     <div class="services__icon">
-                        <div class="services__box"></div>
-                        <i class="ri-code-box-line"></i>
-                     </div>
-                     <h2 class="services__title">Back End</h2>
-
-                     <p class="services__description">
-                        I often use Golang, Node JS, and PHP to create the logic of a system.
-                     </p>
-                  </div>
-               </article>
-
-               <article class="services__card">
-                  <div class="services__border"></div>
-
-                  <div class="services__content">
-                     <div class="services__icon">
-                        <div class="services__box"></div>
-                        <i class="ri-cpu-line"></i>
-                     </div>
-                     <h2 class="services__title">IoT and Microcontrol</h2>
-
-                     <p class="services__description">
-                        Design and assemble a useful and implementable IoT project
-                     </p>
-                  </div>
-               </article>
+              <a href="#" class="projects__button button">
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
             </div>
-         </section>
 
-         <!--==================== PROJECTS ====================-->
-         <section class="projects section" id="projects">
-            <h2 class="section__title-1">
-               <span>Projects</span>
-            </h2>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Backend</h3>
+              <h2 class="projects__title">NodeJS RESTFul API</h2>
 
-            <div class="projects__container container grid">
-               <article class="projects__card">
-                  <div class="projects__image">
-                     <img src="assets/img/project-1.jpg" alt="image" class="projects__img">
+              <p class="projects__description">
+                An imaginative bookshelf that implements commands in RestFul
+                such as Get, Post, Put, and Delete.
+              </p>
+            </div>
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/Annelies11/rest-api-bookshelf"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
 
-                     <a href="#" class="projects__button button">
-                        <i class="ri-arrow-right-up-line"></i>
-                     </a>
-                  </div>
-
-                  <div class="projects__content">
-                     <h3 class="projects__subtitle">IoT</h3>
-                     <h2 class="projects__title">Smart Smoke Precipitator</h2>
-                     
-                     <p class="projects__description">
-                        A device that will overcome the problem of pollution due to charcoal production. Made with my team. I did the electrical.
-                     </p>
-                  </div>
-                  <div class="projects__buttons">
-                     <a href="https://github.com/fajrulfahmi/baronas2023/tree/main/Smart_Smoke_Catcher" target="_blank" class="projects__link">
-                        <i class="ri-github-line"></i> View
-                     </a>
-
-                     <a href="https://youtu.be/VvEdRiHsCE8" target="_blank" class="projects__link">
-                        <i class="ri-youtube-line"></i> Watch
-                     </a>
-                  </div>
-               </article>
-
-                <article class="projects__card">
-                  <div class="projects__image">
-                     <img src="assets/img/project-2.jpg" alt="image" class="projects__img">
-
-                     <a href="#" class="projects__button button">
-                        <i class="ri-arrow-right-up-line"></i>
-                     </a>
-                  </div>
-
-                  <div class="projects__content">
-                     <h3 class="projects__subtitle">Backend</h3>
-                     <h2 class="projects__title">NodeJS RESTFul API</h2>
-                     
-                     <p class="projects__description">
-                        An imaginative bookshelf that implements commands in RestFul such as Get, Post, Put, and Delete.
-                     </p>
-                  </div>
-                  <div class="projects__buttons">
-                     <a href="https://github.com/Annelies11/rest-api-bookshelf" target="_blank" class="projects__link">
-                        <i class="ri-github-line"></i> View
-                     </a>
-
-                     <!-- <a href="https://owalahbegitu.blogspot.com/" target="_blank" class="projects__link">
+              <!-- <a href="https://owalahbegitu.blogspot.com/" target="_blank" class="projects__link">
                         <i class="ri-dribbble-line"></i> View
                      </a> -->
-                  </div>
-               </article>
-               <article class="projects__card">
-                  <div class="projects__image">
-                     <img src="assets/img/project-8.jpg" alt="image" class="projects__img">
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/project-8.jpg"
+                alt="image"
+                class="projects__img"
+              />
 
-                     <a href="#" class="projects__button button">
-                        <i class="ri-arrow-right-up-line"></i>
-                     </a>
-                  </div>
+              <a href="#" class="projects__button button">
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
 
-                  <div class="projects__content">
-                     <h3 class="projects__subtitle">Frontend</h3>
-                     <h2 class="projects__title">Apple Clone Website</h2>
-                     
-                     <p class="projects__description">
-                        Website that mimics the original Apple website, I made it with React JS and Three JS for the animations.
-                     </p>
-                  </div>
-                  <div class="projects__buttons">
-                     <a href="https://github.com/Annelies11/react-apple-clone" target="_blank" class="projects__link">
-                        <i class="ri-github-line"></i> View
-                     </a>
-                     <a href="https://apple-clone-aris.netlify.app/" target="_blank" class="projects__link">
-                        <i class="ri-dribbble-line"></i> View
-                     </a>
-                     
-                  </div>
-               </article>
-               
-<!-- kene -->
-<article class="projects__card">
-   <div class="projects__image">
-      <img src="assets/img/project-6.jpg" alt="image" class="projects__img">
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Frontend</h3>
+              <h2 class="projects__title">Apple Clone Website</h2>
 
-      <a href="#" class="projects__button button">
-         <i class="ri-arrow-right-up-line"></i>
-      </a>
-   </div>
+              <p class="projects__description">
+                Website that mimics the original Apple website, I made it with
+                React JS and Three JS for the animations.
+              </p>
+            </div>
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/Annelies11/react-apple-clone"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+              <a
+                href="https://apple-clone-aris.netlify.app/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i> View
+              </a>
+            </div>
+          </article>
 
-   <div class="projects__content">
-      <h3 class="projects__subtitle">Arduino</h3>
-      <h2 class="projects__title">Package Receiving Cabinet</h2>
-      
-      <p class="projects__description">
-         A prototype that can receive your package while you are out, with face recognition authentication using Huskylens
-      </p>
-   </div>
-   <div class="projects__buttons">
-      <a href="https://github.com/Annelies11/Smart-Package-Saver" target="_blank" class="projects__link">
-         <i class="ri-github-line"></i> View
-      </a>
+          <!-- kene -->
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/project-6.jpg"
+                alt="image"
+                class="projects__img"
+              />
 
-      <!-- <a href="https://owalahbegitu.blogspot.com/" target="_blank" class="projects__link">
+              <a href="#" class="projects__button button">
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Arduino</h3>
+              <h2 class="projects__title">Package Receiving Cabinet</h2>
+
+              <p class="projects__description">
+                A prototype that can receive your package while you are out,
+                with face recognition authentication using Huskylens
+              </p>
+            </div>
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/Annelies11/Smart-Package-Saver"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+
+              <!-- <a href="https://owalahbegitu.blogspot.com/" target="_blank" class="projects__link">
          <i class="ri-dribbble-line"></i> View
       </a> -->
-   </div>
-</article>
+            </div>
+          </article>
 
-                <article class="projects__card">
-                  <div class="projects__image">
-                     <img src="assets/img/project-4.jpg" alt="image" class="projects__img">
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/project-4.jpg"
+                alt="image"
+                class="projects__img"
+              />
 
-                     <a href="#" class="projects__button button">
-                        <i class="ri-arrow-right-up-line"></i>
-                     </a>
-                  </div>
+              <a href="#" class="projects__button button">
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
 
-                  <div class="projects__content">
-                     <h3 class="projects__subtitle">Frontend</h3>
-                     <h2 class="projects__title">Gempolan (Gemini Clone)</h2>
-                     
-                     <p class="projects__description">
-                        A fully functional clone of Gemini that I made with the React JS library
-                     </p>
-                  </div>
-                  <div class="projects__buttons">
-                     <a href="https://github.com/Annelies11/react-nonsense-project/tree/main/gemini-clone" target="_blank" class="projects__link">
-                        <i class="ri-github-line"></i> View
-                     </a>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Frontend</h3>
+              <h2 class="projects__title">Gempolan (Gemini Clone)</h2>
 
-                     <a href="https://gempolan-kelon.netlify.app/" target="_blank" class="projects__link">
-                        <i class="ri-dribbble-line"></i> View
-                     </a>
-                  </div>
-               </article>
+              <p class="projects__description">
+                A fully functional clone of Gemini that I made with the React JS
+                library
+              </p>
+            </div>
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/Annelies11/react-nonsense-project/tree/main/gemini-clone"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
 
-               <article class="projects__card">
-                  <div class="projects__image">
-                     <img src="assets/img/project-5.jpg" alt="image" class="projects__img">
+              <a
+                href="https://gempolan-kelon.netlify.app/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i> View
+              </a>
+            </div>
+          </article>
 
-                     <a href="#" class="projects__button button">
-                        <i class="ri-arrow-right-up-line"></i>
-                     </a>
-                  </div> 
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/project-5.jpg"
+                alt="image"
+                class="projects__img"
+              />
 
-                   <div class="projects__content">
-                     <h3 class="projects__subtitle">Frontend</h3>
-                     <h2 class="projects__title">Submit Login Form</h2>
-                     
-                     <p class="projects__description">
-                        Simple web page about Sign up and login form using React JS library
-                     </p>
-                  </div>
-                  <div class="projects__buttons">
-                     <a href="https://github.com/Annelies11/react-nonsense-project/tree/main/form-login/login-signup" target="_blank" class="projects__link">
-                        <i class="ri-github-line"></i> View
-                     </a>
+              <a href="#" class="projects__button button">
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
 
-                     <!-- <a href="https://owalahbegitu.blogspot.com/" target="_blank" class="projects__link">
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Frontend</h3>
+              <h2 class="projects__title">Submit Login Form</h2>
+
+              <p class="projects__description">
+                Simple web page about Sign up and login form using React JS
+                library
+              </p>
+            </div>
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/Annelies11/react-nonsense-project/tree/main/form-login/login-signup"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+
+              <!-- <a href="https://owalahbegitu.blogspot.com/" target="_blank" class="projects__link">
                         <i class="ri-dribbble-line"></i> View
                      </a> -->
-                  </div>
-               </article>
+            </div>
+          </article>
 
-               <article class="projects__card">
-                  <div class="projects__image">
-                     <img src="assets/img/project-7.jpg" alt="image" class="projects__img">
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/project-7.jpg"
+                alt="image"
+                class="projects__img"
+              />
 
-                     <a href="#" class="projects__button button">
-                        <i class="ri-arrow-right-up-line"></i>
-                     </a>
-                  </div>
+              <a href="#" class="projects__button button">
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
 
-                  <div class="projects__content">
-                     <h3 class="projects__subtitle">IoT</h3>
-                     <h2 class="projects__title">Koi Fish Pond Water Monitoring</h2>
-                     
-                     <p class="projects__description">
-                        This device will send the pH and temperature data to user's phone using Blynk and Thingspeak
-                     </p>
-                  </div>
-                  <div class="projects__buttons">
-                     <a href="https://github.com/bywahjoe/ESP32-Fish-Monitoring/" target="_blank" class="projects__link">
-                        <i class="ri-github-line"></i> View
-                     </a>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">IoT</h3>
+              <h2 class="projects__title">Koi Fish Pond Water Monitoring</h2>
 
-                     <a href="https://youtu.be/v5n5Ip8fvl4" target="_blank" class="projects__link">
-                        <i class="ri-youtube-line"></i> Watch
-                     </a>
-                  </div>
-               </article>
-               <article class="projects__card">
-                  <div class="projects__image">
-                     <img src="assets/img/project-3.jpg" alt="image" class="projects__img">
+              <p class="projects__description">
+                This device will send the pH and temperature data to user's
+                phone using Blynk and Thingspeak
+              </p>
+            </div>
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/bywahjoe/ESP32-Fish-Monitoring/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
 
-                     <a href="#" class="projects__button button">
-                        <i class="ri-arrow-right-up-line"></i>
-                     </a>
-                  </div>
+              <a
+                href="https://youtu.be/v5n5Ip8fvl4"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-youtube-line"></i> Watch
+              </a>
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/project-3.jpg"
+                alt="image"
+                class="projects__img"
+              />
 
-                  <div class="projects__content">
-                     <h3 class="projects__subtitle">Frontend</h3>
-                     <h2 class="projects__title">Simple Admin Dashboard</h2>
-                     
-                     <p class="projects__description">
-                        Creating Admin Dashboard using HTML, CSS, and Javascript.
-                     </p>
-                  </div>
-                  <div class="projects__buttons">
-                     <a href="https://github.com/Annelies11/admin-dashboard-1" target="_blank" class="projects__link">
-                        <i class="ri-github-line"></i> View
-                     </a>
+              <a href="#" class="projects__button button">
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
 
-                     <!-- <a href="https://owalahbegitu.blogspot.com/" target="_blank" class="projects__link">
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Frontend</h3>
+              <h2 class="projects__title">Simple Admin Dashboard</h2>
+
+              <p class="projects__description">
+                Creating Admin Dashboard using HTML, CSS, and Javascript.
+              </p>
+            </div>
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/Annelies11/admin-dashboard-1"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+
+              <!-- <a href="https://owalahbegitu.blogspot.com/" target="_blank" class="projects__link">
                         <i class="ri-dribbble-line"></i> View
                      </a> -->
-                  </div>
-               </article>
             </div>
-         </section>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/project-9.jpg"
+                alt="image"
+                class="projects__img"
+              />
 
-         
-
-         <!--==================== CONTACT ====================-->
-         <section class="contact section" id="contact">
-            <div class="contact__container grid">
-               <div class="contact__data">
-                  <h2 class="section__title-2">
-                     <span>Contact Me</span>
-                  </h2>
-                  <p class="contact__description-1">
-                     I will read all emails. Send me any
-                      message you want and I'll get back to you
-                  </p>
-
-                  <p class="contact__description-2">
-                     I need your <b>Name</b> and <b>Email Address</b>, but 
-                     you won't receive anything other than your reply
-                  </p>
-
-                  <div class="geometric-box"></div>
-               </div>
-
-               <div class="contact__mail">
-                  <h2 class="contact__title">
-                     Send Me A Message
-                  </h2>
-
-                  <form action="" class="contact__form" id="contact-form">
-                     <div class="contact__group">
-                        <div class="contact__box">
-                           <input type="text" name="user_name" class="contact__input" id="name" required placeholder="First Name">
-                           <label for="name" class="contact__label">First Name</label>
-                        </div>
-
-                        <div class="contact__box">
-                           <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email Address">
-                           <label for="email" class="contact__label">Email Address</label>
-                        </div>
-
-                        <div class="contact__box">
-                           <input type="text" name="user_subject" class="contact__input" id="subject" required placeholder="Subject">
-                           <label for="subject" class="contact__label">Subject</label>
-                        </div>
-
-                        <div class="contact__box contact__area">
-                           <textarea name="user_message" id="message" cols="30" rows="10" class="contact__input" required placeholder="Message"></textarea>
-                           <label for="message" class="contact__label">Message</label>
-                        </div>
-
-                        <p class="contact__message" id="contact-message"></p>
-
-                        <button type="submit" class="contact__button button">
-                           <i class="ri-send-plane-line"></i> Send Message
-                        </button>
-                     </div>
-                  </form>
-
-               </div>
-
-               <div class="contact__social">
-                  <img src="assets/img/curved-arrow.svg" alt="" class="contact__social-arrow">
-                  <div class="contact__social-data">
-                     <div>
-                        <p class="contact__social-description-1">
-                           Send message to me using email or <b>Linkedin</b>, I'll read it
-                        </p>
-                        <p class="contact__social-description-2">
-                           Not Instagram or Facebook, <br>I'm still on dopamine detox right now
-                        </p>
-                     </div>
-                     <div class="contact__social-links">
-                        <a href="https://www.facebook.com/aris.mahmud.16/" target="_blank" class="contact__social-link">
-                           <i class="ri-facebook-circle-line"></i>
-                        </a>
-                        <a href="https://www.instagram.com/aris_mahmvdi/" target="_blank" class="contact__social-link">
-                           <i class="ri-instagram-line"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/aris-mahmudi112233/" target="_blank" class="contact__social-link">
-                           <i class="ri-linkedin-box-line"></i>
-                        </a>
-                     </div>
-                  </div>
-               </div>
+              <a href="#" class="projects__button button">
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
             </div>
-         </section>
-      </main>
 
-      <!--==================== FOOTER ====================-->
-      <footer class="footer">
-         <div class="footer__container container grid">
-            <ul class="footer__links">
-               <li>
-                  <a href="#about" class="footer__link">About</a>
-               </li>
-               <li>
-                  <a href="#services" class="footer__link">Services</a>
-               </li>
-               <li>
-                  <a href="#projects" class="footer__link">Projects</a>
-               </li>
-            </ul>
-            <span class="footer__copy">
-               &#169; Just Copying From Youtube Stuff By <a href="">Aris Mahmudi</a>
-            </span>
-         </div>
-      </footer>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Frontend</h3>
+              <h2 class="projects__title">Pizza Menu</h2>
 
-      <!--========== SCROLL UP ==========-->
-      <a href="" class="scrollup" id="scroll-up">
-         <i class="ri-arrow-up-s-line"></i>
-      </a>
+              <p class="projects__description">
+                Pizza menu website created using React JS library
+              </p>
+            </div>
+            <div class="projects__buttons">
+              <!-- <a
+                href="https://github.com/Annelies11/admin-dashboard-1"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a> -->
 
-      <!--=============== SCROLLREVEAL ===============-->
-      <script src="assets/js/scrollreveal.min.js"></script>
-      
-      <!--=============== EMAIL JS ===============-->
-      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+              <a
+                href="https://pizza-menu-annelies.netlify.app/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i> View
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
 
-      <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
-   </body>
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <div class="contact__container grid">
+          <div class="contact__data">
+            <h2 class="section__title-2">
+              <span>Contact Me</span>
+            </h2>
+            <p class="contact__description-1">
+              I will read all emails. Send me any message you want and I'll get
+              back to you
+            </p>
+
+            <p class="contact__description-2">
+              I need your <b>Name</b> and <b>Email Address</b>, but you won't
+              receive anything other than your reply
+            </p>
+
+            <div class="geometric-box"></div>
+          </div>
+
+          <div class="contact__mail">
+            <h2 class="contact__title">Send Me A Message</h2>
+
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__group">
+                <div class="contact__box">
+                  <input
+                    type="text"
+                    name="user_name"
+                    class="contact__input"
+                    id="name"
+                    required
+                    placeholder="First Name"
+                  />
+                  <label for="name" class="contact__label">First Name</label>
+                </div>
+
+                <div class="contact__box">
+                  <input
+                    type="email"
+                    name="user_email"
+                    class="contact__input"
+                    id="email"
+                    required
+                    placeholder="Email Address"
+                  />
+                  <label for="email" class="contact__label"
+                    >Email Address</label
+                  >
+                </div>
+
+                <div class="contact__box">
+                  <input
+                    type="text"
+                    name="user_subject"
+                    class="contact__input"
+                    id="subject"
+                    required
+                    placeholder="Subject"
+                  />
+                  <label for="subject" class="contact__label">Subject</label>
+                </div>
+
+                <div class="contact__box contact__area">
+                  <textarea
+                    name="user_message"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                    class="contact__input"
+                    required
+                    placeholder="Message"
+                  ></textarea>
+                  <label for="message" class="contact__label">Message</label>
+                </div>
+
+                <p class="contact__message" id="contact-message"></p>
+
+                <button type="submit" class="contact__button button">
+                  <i class="ri-send-plane-line"></i> Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <div class="contact__social">
+            <img
+              src="assets/img/curved-arrow.svg"
+              alt=""
+              class="contact__social-arrow"
+            />
+            <div class="contact__social-data">
+              <div>
+                <p class="contact__social-description-1">
+                  Send message to me using email or <b>Linkedin</b>, I'll read
+                  it
+                </p>
+                <p class="contact__social-description-2">
+                  Not Instagram or Facebook, <br />I'm still on dopamine detox
+                  right now
+                </p>
+              </div>
+              <div class="contact__social-links">
+                <a
+                  href="https://www.facebook.com/aris.mahmud.16/"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-facebook-circle-line"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/aris_mahmvdi/"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/aris-mahmudi112233/"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-linkedin-box-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <ul class="footer__links">
+          <li>
+            <a href="#about" class="footer__link">About</a>
+          </li>
+          <li>
+            <a href="#services" class="footer__link">Services</a>
+          </li>
+          <li>
+            <a href="#projects" class="footer__link">Projects</a>
+          </li>
+        </ul>
+        <span class="footer__copy">
+          &#169; Just Copying From Youtube Stuff By <a href="">Aris Mahmudi</a>
+        </span>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-s-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
